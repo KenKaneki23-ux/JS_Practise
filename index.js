@@ -1,4 +1,4 @@
-const str = " ";
-if (str.trim() == " ") {
-    console.log("String is empty");
-}
+const str1 = 'Hello';
+const str2 = 'World';
+let str3 = str1 + str2
+console.log(str3)
