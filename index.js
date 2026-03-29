@@ -1,12 +1,10 @@
-
-function countVowels(str) {
-    const vowels = 'aeiouAEIOU';
+function countSpaces(str) {
     let count = 0;
     for (let i = 0; i < str.length; i++) {
-        if (!vowels.includes(str[i])) {
+        if (str[i] === ' ') {
             count++;
         }
     }
     return count;
 }
-console.log(countVowels('Tushar'));
+console.log(countSpaces('Tushar Das')); 
