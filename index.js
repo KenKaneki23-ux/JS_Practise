@@ -1,6 +1,12 @@
-function isPalindrome(str) {
-  const reversed = str.split('').reverse().join('');
-  return str === reversed;
+
+function countVowels(str) {
+    const vowels = 'aeiouAEIOU';
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+        if (!vowels.includes(str[i])) {
+            count++;
+        }
+    }
+    return count;
 }
-console.log(isPalindrome('racecar'));
-console.log(isPalindrome('hello'));
+console.log(countVowels('Tushar'));
