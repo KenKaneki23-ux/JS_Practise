@@ -1,8 +1,4 @@
-const str = 'Tushar'
-const len = str.length
-const upper = str.toUpperCase()
-const lower = str.toLowerCase()
-console.log(str)
-console.log(len)
-console.log(upper)
-console.log(lower)
+const str = " ";
+if (str.trim() == " ") {
+    console.log("String is empty");
+}
