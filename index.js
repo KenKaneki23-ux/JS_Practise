@@ -1,2 +1,4 @@
-const str = 'Tushar';
-console.log(str[0]);
+function lastLetter(str) {
+  return str[str.length - 1];
+}
+console.log(lastLetter('Tushar'))
