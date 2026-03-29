@@ -1,5 +1,6 @@
-function reverseString(str) {
-  return str.split('').reverse().join('');
+function isPalindrome(str) {
+  const reversed = str.split('').reverse().join('');
+  return str === reversed;
 }
-
-console.log(reverseString('Tushar'));
+console.log(isPalindrome('racecar'));
+console.log(isPalindrome('hello'));
