@@ -1,4 +1,5 @@
-function lastLetter(str) {
-  return str[str.length - 1];
+function reverseString(str) {
+  return str.split('').reverse().join('');
 }
-console.log(lastLetter('Tushar'))
+
+console.log(reverseString('Tushar'));
